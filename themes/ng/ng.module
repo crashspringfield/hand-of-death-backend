@@ -1,0 +1,12 @@
+<?php
+/**
+ * Implements hook_theme().
+ */
+function ng_theme() {
+  return array(
+    'ng_view' => array(
+      'template' => 'view',
+      'variables' => array('title' => NULL),
+    ),
+  );
+}
