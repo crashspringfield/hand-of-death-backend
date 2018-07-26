@@ -1,0 +1,6 @@
+name: Email Signup
+description: A Rest endpoint for signing up to the mailing list
+package: Custom
+
+type: module
+core: 8.x

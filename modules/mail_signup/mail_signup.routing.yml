@@ -1,0 +1,7 @@
+mail_signup.content:
+  path: '/api/add-email'
+  defaults:
+    _controller: '\Drupal\mail_signup\Controller\SignupController::post'
+    _title: 'Signup'
+  requirements:
+    _permission: 'access content'

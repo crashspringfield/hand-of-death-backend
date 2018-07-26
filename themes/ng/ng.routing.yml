@@ -1,7 +1,0 @@
-ng.view:
-  path: 'ng'
-  defaults:
-    _title: 'Drupal Angular'
-    _controller: '\Drupal\ng\Controller\DrupalNgController::viewDrupalNg'
-  requirements:
-    _permission: 'access content'

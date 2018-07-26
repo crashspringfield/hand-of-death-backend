@@ -6,10 +6,8 @@
     "require": {
         "composer/installers": "^1.0.24",
         "wikimedia/composer-merge-plugin": "~1.4",
-        "drush/drush": "^8.1"
-    },
-    "replace": {
-        "drupal/core": "~8.3"
+        "drush/drush": "~9.3",
+	"drupal/core": "~8.5"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
